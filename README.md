@@ -3,3 +3,6 @@ Technical interviews, coding live, has it's own particularities, and one way to 
 
 ## Cache simulation in Python
 Here is a problem: Write a class for least recently used (LRU) cache with input as capacity and implement the general methods needed (put and get). Solution: see `mycache.py` file.
+
+## Verilog netlist parser
+Write a Python program that reads a given Verilog file that includes a netlist, parses it, removes comments and line breaks, and stores the Verilog netlist in some kind of data structire. The program will identify modules, primitives, and be able to generate a report of number of instances from different levels. The solution provided in `VerilogInterpreter.py` implements a recursive tree search.
