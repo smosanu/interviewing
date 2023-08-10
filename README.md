@@ -9,3 +9,6 @@ Write a Python program that reads a given Verilog file that includes a netlist, 
 
 ## Patterns match data structure
 The program will model a stream processing unit that detects patterns. It implements a data structure for the patterns to be matched. There are no optimizations, the solution is in `patterns.c`.
+
+## Number of matching elements in two sorted, distinct arrays
+See `twoarrays.cpp`
